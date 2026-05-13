@@ -11,9 +11,10 @@ function App() {
     <>
       <section id="center">
         <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+          <a href="https://su.edu.ye/mc/center-board/">
+            <img src="IMAGE_URL_HERE" alt="Medical Center Board Member" width="250" height="250">
+          </a>
+          
         </div>
         <div>
           <h1>Hello</h1>
