@@ -12,8 +12,13 @@ function App() {
       <section id="center">
         <div className="hero">
           <a href="https://su.edu.ye/mc/center-board/">
-            <img src="IMAGE_URL_HERE" alt="Medical Center Board Member" width="250" height="250">
-          </a>
+          <img 
+            src="https://example.com/path-to-your-image.jpg" 
+            alt="Medical Center Board Member" 
+            width="250" 
+            height="250" 
+          />
+        </a>
           
         </div>
         <div>
