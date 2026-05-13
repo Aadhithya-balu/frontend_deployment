@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import heroImg from './assets/images_ci-cd.jpg'
 import './App.css'
 
 function App() {
@@ -11,15 +11,7 @@ function App() {
     <>
       <section id="center">
         <div className="hero">
-          <a href="https://su.edu.ye/mc/center-board/">
-          <img 
-            src="https://example.com/path-to-your-image.jpg" 
-            alt="Medical Center Board Member" 
-            width="250" 
-            height="250" 
-          />
-        </a>
-          
+          <img src = {heroImg} width ="250" height="250" />
         </div>
         <div>
           <h1>Hello</h1>
